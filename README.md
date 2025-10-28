@@ -15,7 +15,11 @@
 
 🌐 emby-nginx助手 官方网站：[https://6080808.xyz](https://6080808.xyz)
 
-[![关注公众号](https://cdn.jsdelivr.net/gh/Yongzz668/image@main/assets/IMG_8887.jpeg)](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=XXXXXX==)
+<a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=XXXXXX==" target="_blank">
+  <img src="https://cdn.jsdelivr.net/gh/Yongzz668/image@main/assets/IMG_8887.jpeg" 
+       alt="关注公众号" 
+       width="120">
+</a>
 ---
 
 ## 核心功能 
