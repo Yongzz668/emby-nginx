@@ -17,21 +17,6 @@
 [![腾讯文档](https://img.shields.io/badge/腾讯文档-教程-green?logo=tencentdocs)](https://docs.qq.com/doc/DTHVTcHRwb3pJdk1D)
 
 ---
-
-## 📄 更新日志
-[📄 查看更新日志](./CHANGELOG.md)
-
----
-
-## 📱 关注微信公众号
-扫码关注获取最新教程和公告：  
-
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Yongzz668/image@main/assets/IMG_8887.jpeg" alt="关注公众号" width="120">
-</p>
-
-**提示**：请用微信扫描二维码关注公众号
-
 ## 核心功能 
 
 ### 🔒 安全保护
@@ -162,3 +147,20 @@ services:
 | /strm/local          | 本机 Emby/Jellyfin 容器映射的 STRM 文件目录 |
 | /strm/online         | 外部播放器使用的 STRM 文件，通过 WebDAV 挂载 |
 | /strm/openlist       | 存放基于挂载在 openlist 网盘的 STRM 文件 |
+
+
+
+## 📄 更新日志
+[📄 查看更新日志](./CHANGELOG.md)
+
+---
+本工具为付费本地永久激活工具，激活购买前有24小时所有功能无限制试用期，请安装配置以后再行考虑是否购买激活码永久使用。
+## 📱 关注微信公众号
+扫码关注获取购买激活码帮助
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/Yongzz668/image@main/assets/IMG_8887.jpeg" alt="关注公众号" width="120">
+</p>
+
+**提示**：请用微信扫描二维码关注公众号
+
