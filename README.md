@@ -150,16 +150,16 @@ services:
 
 ## STRM 文件说明
 
-支持7001直链端口解析播放的前缀路径的 STRM 文件。
+7001直链端口解析播放的前缀路径的 STRM 文件
 
 ### 本地与外网访问前缀
 
 - **本地 HTTP 前缀**: [http://192.168.100.1:9527](http://192.168.100.1:9527)  
-- **外网 HTTP 前缀**: [http://ABC.xyz:9527](http://ABC.xyz:9527)  
+- **外网 HTTPS 前缀**: [https://ABC.xyz:9527反代端口](https://ABC.xyz:9527)  
 
 ### Cd2 挂载路径与直链
 
-- **Cd2 挂载路径前缀**: `/CloudNAS/CloudDrive/115`  
+- **Cd2 挂载路径前缀**: ［/CloudNAS/CloudDrive]  
 - **Cd2 302 直链前缀**: [http://192.168.100.1:19798](http://192.168.100.1:19798)  
 
 ---
@@ -167,7 +167,7 @@ services:
 ### Openlist STRM
 
 - **Openlist 前缀**: [http://192.168.100.1:5244/d](http://192.168.100.1:5244/d)  
-- Openlist 生成的 STRM 文件直接解析  
+- Openlist 生成的 STRM 文件直接解析7001端口播放
 
 ---
 
