@@ -1,26 +1,36 @@
-
-# emby-nginx助手
+# Emby-Nginx 助手
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/yantaocheng/emby-nginx.svg)](https://hub.docker.com/r/yantaocheng/emby-nginx)
 [![GitHub stars](https://img.shields.io/github/stars/Yongzz668/emby-nginx.svg)](https://github.com/Yongzz668/emby-nginx/stargazers)
-## 📌 tg群 / 教程
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+**Emby-Nginx 助手** 是一款专为 Emby、Jellyfin 等媒体服务器设计的专业级 Nginx 反向代理工具，支持 Docker 一键部署、HTTPS 安全访问控制、多设备直链播放及 STRM 文件管理。
+
+🌐 官方网站：[https://6080808.xyz](https://6080808.xyz)
+
+---
+
+## 📌 官方资源 / 官方教程
 
 [![Telegram](https://img.shields.io/badge/Telegram-加入群-blue?logo=telegram)](https://t.me/Embynginx)  
 [![Bilibili](https://img.shields.io/badge/B站-教程-red?logo=bilibili)](https://b23.tv/pwru3We)  
 [![腾讯文档](https://img.shields.io/badge/腾讯文档-教程-green?logo=tencentdocs)](https://docs.qq.com/doc/DTHVTcHRwb3pJdk1D)
 
-[📄 版本更新日志](./CHANGELOG.md)
-
-**emby-nginx助手** 是一款专为 Emby、Jellyfin 飞牛影视等媒体服务器设计的专业级 Nginx 反向直链生成工具，支持 Docker Windows平台、多网盘登录、多账号挂载、多emby反代直链播放及 STRM 文件管理。
-
-🌐 emby-nginx助手 官方网站：[https://6080808.xyz](https://6080808.xyz)
-
-<a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=XXXXXX==" target="_blank">
-  <img src="https://cdn.jsdelivr.net/gh/Yongzz668/image@main/assets/IMG_8887.jpeg" 
-       alt="关注公众号" 
-       width="120">
-</a>
 ---
+
+## 📄 更新日志
+[📄 查看更新日志](./CHANGELOG.md)
+
+---
+
+## 📱 关注微信公众号
+扫码关注获取最新教程和公告：  
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/Yongzz668/image@main/assets/IMG_8887.jpeg" alt="关注公众号" width="120">
+</p>
+
+**提示**：请用微信扫描二维码关注公众号
 
 ## 核心功能 
 
