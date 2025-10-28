@@ -148,6 +148,35 @@ services:
 | /strm/online         | 外部播放器使用的 STRM 文件，通过 WebDAV 挂载 |
 | /strm/openlist       | 存放基于挂载在 openlist 网盘的 STRM 文件 |
 
+## STRM 文件说明
+
+支持7001直链端口解析播放的前缀路径的 STRM 文件。
+
+### 本地与外网访问前缀
+
+- **本地 HTTP 前缀**: [http://192.168.100.1:9527](http://192.168.100.1:9527)  
+- **外网 HTTP 前缀**: [http://ABC.xyz:9527](http://ABC.xyz:9527)  
+
+### Cd2 挂载路径与直链
+
+- **Cd2 挂载路径前缀**: `/CloudNAS/CloudDrive/115`  
+- **Cd2 302 直链前缀**: [http://192.168.100.1:19798](http://192.168.100.1:19798)  
+
+---
+
+### Openlist STRM
+
+- **Openlist 前缀**: [http://192.168.100.1:5244/d](http://192.168.100.1:5244/d)  
+- Openlist 生成的 STRM 文件直接解析  
+
+---
+
+### 支持安装emby-nginx的设备
+
+- X86 架构的 NAS 或软路由  
+- ARM 架构的 NAS 或软路由  
+- VPS 云服务器  
+- Windows 系统电脑
 
 
 ## 📄 更新日志
