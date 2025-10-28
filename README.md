@@ -1,17 +1,17 @@
 
-# Emby-Nginx 助手
+# emby-nginx 助手
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/yantaocheng/emby-nginx.svg)](https://hub.docker.com/r/yantaocheng/emby-nginx)
 [![GitHub stars](https://img.shields.io/github/stars/Yongzz668/emby-nginx.svg)](https://github.com/Yongzz668/emby-nginx/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**Emby-Nginx 助手** 是一款专为 Emby、Jellyfin 等媒体服务器设计的专业级 Nginx 反向代理工具，支持 Docker 一键部署、HTTPS 安全访问控制、多设备直链播放及 STRM 文件管理。
+**emby-nginx 助手** 是一款专为 Emby、Jellyfin 飞牛影视等媒体服务器设计的专业级 Nginx 反向直链生成工具，支持 Docker Windows平台、多网盘登录、多账号挂载、多emby反代直链播放及 STRM 文件管理。
 
 🌐 官方网站：[https://6080808.xyz](https://6080808.xyz)
 
 ---
 
-## 核心功能 Core Features
+## 核心功能 
 
 ### 🔒 安全保护
 - 启用程序自锁机制，超过五次输错密码程序自锁  
@@ -20,7 +20,7 @@
 ### ⚡ 自动化配置
 - 扫 115 网盘二维码登录 Cookie 各端  
 - 支持官方认证 115 网盘 Open 与 123 云盘 Open  
-- 支持直链播放 115 网盘或 123 云盘  
+- 支持直链播放及strm生成 115 网盘或 123 云盘  
 - 自动生成基于 openlist 的网盘 STRM 文件并提供直链播放
 
 ### 🔍 实时监控
@@ -52,7 +52,7 @@
 
 ---
 
-## 独家功能 Exclusive Features
+## 独家功能 
 
 ### 🎯 快速生成 ED2K 链接
 - 独创选择模式和实时监控 115 网盘文件的 ED2K 链接  
