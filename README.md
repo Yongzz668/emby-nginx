@@ -94,20 +94,40 @@
 ---
 
 ## 🐳 Docker CLI 部署示例
-
-docker run -d \
-  --name emby-nginx \                        # 容器名称
+```
+docker run -d   --name emby-nginx \                        # 容器名称
   -p 7001:7001 \                             # 反向代理 Emby/Jellyfin 8096 端口
   -p 8021:8001 \                             # 飞牛影视系统专用直链反代端口
   -p 9527:9527 \                             # 管理后台访问端口
   -p 5002:5002 \                             # WebDAV 服务端口
   -v /vol1/1000/emby-nginx/strm:/strm \     # STRM 文件映射
   -v /vol1/1000/emby-nginx/backup:/app/backup \  # 备份目录
-  --network bridge \
-  --restart unless-stopped \
-  --privileged \
-  yantaocheng/emby-nginx:latest
+  --network bridge   --restart unless-stopped   --privileged   yantaocheng/emby-nginx:latest
+  ```
 
+---
+
+## 🐳 Docker Compose 部署示例
+
+```yaml
+version: '3.8'
+
+services:
+  emby-nginx:
+    image: yantaocheng/emby-nginx:latest
+    container_name: emby-nginx
+    ports:
+      - "7001:7001"    # 反向代理 Emby/Jellyfin 8096 端口
+      - "8021:8001"    # 飞牛影视系统专用直链反代端口
+      - "9527:9527"    # 管理后台访问端口
+      - "5002:5002"    # WebDAV 服务端口
+    volumes:
+      - /vol1/1000/emby-nginx/strm:/strm       # STRM 文件映射
+      - /vol1/1000/emby-nginx/backup:/app/backup  # 备份目录
+    network_mode: bridge
+    restart: unless-stopped
+    privileged: true
+```
 ---
 
 ### 🔌 端口说明
