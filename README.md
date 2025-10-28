@@ -8,7 +8,9 @@
 [![Telegram](https://img.shields.io/badge/Telegram-加入群-blue?logo=telegram)](https://t.me/Embynginx)  
 [![Bilibili](https://img.shields.io/badge/B站-教程-red?logo=bilibili)](https://b23.tv/pwru3We)  
 [![腾讯文档](https://img.shields.io/badge/腾讯文档-教程-green?logo=tencentdocs)](https://docs.qq.com/doc/DTHVTcHRwb3pJdk1D)
-[查看更新日志](./CHANGELOG.md)
+
+[📄 版本更新日志](./CHANGELOG.md)
+
 **emby-nginx助手** 是一款专为 Emby、Jellyfin 飞牛影视等媒体服务器设计的专业级 Nginx 反向直链生成工具，支持 Docker Windows平台、多网盘登录、多账号挂载、多emby反代直链播放及 STRM 文件管理。
 
 🌐 emby-nginx助手 官方网站：[https://6080808.xyz](https://6080808.xyz)
