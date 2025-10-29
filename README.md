@@ -4,7 +4,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Yongzz668/emby-nginx.svg)](https://github.com/Yongzz668/emby-nginx/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**Emby-Nginx 助手** 是一款专为115网盘登录，Emby媒体服务器设计的专业级 Nginx 反向代理工具，支持 Docker、Windows、多网盘登录，多媒体服务器直链播放及 STRM 文件极速生成。
+**Emby-Nginx 助手** 是一款专为115网盘登录，Emby媒体服务器设计的专业级 Nginx 直链反向工具，支持 Docker、Windows、多网盘登录，多媒体服务器直链播放及 STRM 文件极速生成。
 
 🌐 官方网站：[https://6080808.xyz](https://6080808.xyz)
 
@@ -70,7 +70,7 @@
 
 ### 👥 多设备同时播放
 - 同一网盘视频文件同时支持最高 7 个设备在线播放  
-- A文件复制A1 A2 A3 A4 A5 A6播放避免直链播放限制
+- A文件复制1A 2A 3A 4A 5A 6A直链播放避免302限制
 
 ### ⚖️ 多账号负载均衡
 - 多个网盘账号挂载均衡使用，避免风控  
@@ -162,7 +162,7 @@ services:
 
 ### Cd2 挂载路径与直链
 
-- **Cd2 挂载路径前缀**: ［/CloudNAS/CloudDrive]  
+- **Cd2 挂载路径前缀**: /CloudNAS/CloudDrive  
 - **Cd2 302 直链前缀**: [http://192.168.100.1:19798](http://192.168.100.1:19798)  
 
 ---
