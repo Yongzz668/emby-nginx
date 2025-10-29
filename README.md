@@ -4,13 +4,13 @@
 [![GitHub stars](https://img.shields.io/github/stars/Yongzz668/emby-nginx.svg)](https://github.com/Yongzz668/emby-nginx/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**Emby-Nginx 助手** 是一款专为 Emby、Jellyfin 等媒体服务器设计的专业级 Nginx 反向代理工具，支持 Docker 一键部署、HTTPS 安全访问控制、多设备直链播放及 STRM 文件管理。
+**Emby-Nginx 助手** 是一款专为115网盘登录，Emby媒体服务器设计的专业级 Nginx 反向代理工具，支持 Docker、Windows、多网盘登录，多媒体服务器直链播放及 STRM 文件极速生成。
 
 🌐 官方网站：[https://6080808.xyz](https://6080808.xyz)
 
 ---
 
-## 📌 官方资源 / 官方教程
+## 📌 tg群 / 教程
 
 [![Telegram](https://img.shields.io/badge/Telegram-加入群-blue?logo=telegram)](https://t.me/Embynginx)  
 [![Bilibili](https://img.shields.io/badge/B站-教程-red?logo=bilibili)](https://b23.tv/pwru3We)  
@@ -26,7 +26,7 @@
 ### ⚡ 自动化配置
 - 扫 115 网盘二维码登录 Cookie 各端  
 - 支持官方认证 115 网盘 Open 与 123 云盘 Open  
-- 支持115 网盘或 123 云盘直链播放及strm生成 
+- 支持115 网盘或 123 云盘直链播放及strm极速生成 
 - 直接解析openlist生成的网盘 STRM 文件直链播放
 
 ### 🔍 实时监控
@@ -40,13 +40,13 @@
 - 支持芝度、绿联、Infuse、Vidhub 等主流播放器
 
 ### 🎬 媒体信息获取
-- 实时生成 STRM 并探测文件媒体信息  
+- 实时生成 STRM 追更探测文件媒体信息  
 - 支持字幕图片NFO文件自动下载
 
 ### 🤖 微信机器人
 - 企业微信 Webhook 通知 STRM 生成/更新提醒  
 - 发送各工具任务完成通知，追更探测媒体信息加快入库速度
-- Emby 入库/播放通知，观影账户反馈登录城市 IP，避免不明异地 302 风控
+- Emby 入库/播放通知，观影账户反馈登录城市 IP，避免不明异地 302 播放风控
 
 ### ☁️ WebDAV 支持
 - 通过 5002 端口开启 WebDAV 服务，挂载外网STRM文件  
