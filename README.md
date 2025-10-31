@@ -1,12 +1,13 @@
-# Emby-Nginx 助手
+# emby-nginx 助手
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/yantaocheng/emby-nginx.svg)](https://hub.docker.com/r/yantaocheng/emby-nginx)
 [![GitHub stars](https://img.shields.io/github/stars/Yongzz668/emby-nginx.svg)](https://github.com/Yongzz668/emby-nginx/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**Emby-Nginx 助手** 是一款专为115网盘登录，Emby媒体服务器设计的专业级 Nginx 直链反向工具，支持 Docker、Windows、多网盘登录，多媒体服务器直链播放及 STRM 文件极速生成。
+**emby-nginx 助手** 是一款专为115网盘登录，Emby媒体服务器设计的专业级 Nginx 直链反向工具，支持 Docker、Windows、多网盘登录，多媒体服务器直链播放及 STRM 文件极速生成。
 
-🌐 emby-nginx 助手 官方网站：[https://6080808.xyz](https://6080808.xyz)
+🌐 emby-nginx 助手 官方网站：
+[https://6080808.xyz](https://6080808.xyz)
 
 ---
 
