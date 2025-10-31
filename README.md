@@ -11,6 +11,9 @@
 
 ---
 
+## 📄 版本更新日志
+[📄 emby-nginx更新日志](./CHANGELOG.md)
+
 ## 📌 tg群 / 教程
 
 [![Telegram](https://img.shields.io/badge/Telegram-加入群-blue?logo=telegram)](https://t.me/Embynginx)  
@@ -184,8 +187,6 @@ services:
 - Windows 系统电脑
 
 
-## 📄 更新日志
-[📄 查看更新日志](./CHANGELOG.md)
 
 ---
 本工具为付费获取激活码本地永久激活工具，激活前有24小时所有功能无限制试用期，请安装试用期满以后再行慎重考虑是否购买激活码永久使用。
