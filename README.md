@@ -106,16 +106,16 @@
 
 ## 🐳 Docker CLI 部署示例
 ```
-docker run -d
-  --name emby-nginx \                        # 容器名称
-  -p 7001:7001 \                             # 反向代理 Emby/Jellyfin 8096 端口
-  -p 8021:8001 \                             # 飞牛影视系统专用直链反代端口
-  -p 9527:9527 \                             # 管理后台访问端口
-  -p 5002:5002 \                             # WebDAV 服务端口
-  -v /vol1/1000/emby-nginx/strm:/strm \     # STRM 文件映射
-  -v /vol1/1000/emby-nginx/backup:/app/backup \  # 备份目录
-  --network bridge
-  --restart unless-stopped
+docker run -d \
+  --name emby-nginx \
+  -p 7001:7001 \
+  -p 8021:8001 \
+  -p 9527:9527 \
+  -p 5002:5002 \
+  -v /vol1/1000/emby-nginx/strm:/strm \
+  -v /vol1/1000/emby-nginx/backup:/app/backup \
+  --network bridge \
+  --restart unless-stopped \
   yantaocheng/emby-nginx:latest
   ```
 
