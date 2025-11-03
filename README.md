@@ -114,7 +114,7 @@ docker run -d   --name emby-nginx \                        # 容器名称
   -v /vol1/1000/emby-nginx/strm:/strm \     # STRM 文件映射
   -v /vol1/1000/emby-nginx/backup:/app/backup \  # 备份目录
   --network bridge   --restart unless-stopped
-yantaocheng/emby-nginx:latest
+  yantaocheng/emby-nginx:latest
   ```
 
 ---
