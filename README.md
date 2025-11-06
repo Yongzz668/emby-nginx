@@ -198,7 +198,7 @@ services:
 扫码关注获取购买激活码帮助
 
 <p align="center">
-  <img src="[https://cdn.jsdelivr.net/gh/Yongzz668/image@main/assets/IMG_8887.jpeg](https://cdn.jsdelivr.net/gh/HQSxcj/emby-nginx@main/image/IMG_3637.jpeg)" alt="关注公众号" width="120">
+  <img src="(https://cdn.jsdelivr.net/gh/HQSxcj/emby-nginx@main/image/IMG_3637.jpeg)" alt="关注公众号" width="120">
 </p>
 
 **提示**：请用微信扫描二维码关注公众号
