@@ -183,7 +183,7 @@ services:
 
 ---
 
-### 支持安装 emby-nginx助手 的设备
+### 支持安装 emby-nginx 的设备
 
 - X86 架构的 NAS 或软路由  
 - ARM 架构的 NAS 或软路由  
