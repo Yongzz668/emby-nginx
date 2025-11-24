@@ -4,7 +4,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Yongzz668/emby-nginx.svg)](https://github.com/Yongzz668/emby-nginx/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**emby-nginx 助手** 是一款专为115网盘、123云盘登录，Emby媒体服务器设计的专业级 Nginx 直链反代工具，支持 Docker、Windows安装 多网盘登录，多媒体服务器直链播放及 STRM 文件极速生成。
+**emby-nginx 助手** 是一款为115网盘strm+302直链播放、123云盘strm+302直链播放，openlist strm+302直链播放 给Emby服务器+飞牛影视等直链播放工具，支持 Docker、Windows安装 多网盘登录，多emby服务器直链播放及 多种路径STRM 文件极速生成。
 
 🌐 emby-nginx 助手 官方网站：
 [https://6080808.xyz](https://6080808.xyz)
