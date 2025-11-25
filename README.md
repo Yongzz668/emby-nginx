@@ -9,6 +9,7 @@
 🌐 emby-nginx  官方网站：
 [https://6080808.xyz](https://6080808.xyz)
 
+[Wiki 介绍](https://github.com/HQSxcj/emby-nginx/wiki)
 ---
 
 ## 📄 版本更新日志
