@@ -199,7 +199,7 @@ services:
 扫码关注获取购买激活码帮助
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/HQSxcj/emby-nginx/image/IMG_4163.jpeg.jpeg" alt="关注公众号" width="120">
+  <img src="https://cdn.jsdelivr.net/gh/HQSxcj/emby-nginx/image/IMG_4163.jpeg" alt="关注公众号" width="120">
 </p>
 
 **提示**：请用微信扫描二维码关注公众号
